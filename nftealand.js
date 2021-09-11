@@ -258,7 +258,7 @@ console.log(hour)
 } else if ((minutes >= 30 && minutes <= 59) && (hour >= 21 && hour < 5)) {
 console.log(hour)
    document.getElementById("gif").src = "https://uploads-ssl.webflow.com/60ae8c4857598e31ccef08c2/613a1412865fc84d51229463_NFTEA_LAND_CLOSED_Night.gif";
-	document.getElementById("#prize1").src = "https://res.cloudinary.com/dh2ufbkjp/video/upload/v1631379553/Metal_Door_Rattle_1_wlxmmh.wav";
+	document.getElementById("prize1").src = "https://res.cloudinary.com/dh2ufbkjp/video/upload/v1631379553/Metal_Door_Rattle_1_wlxmmh.wav";
 	document.getElementById("drinkbar").src = "https://res.cloudinary.com/dh2ufbkjp/video/upload/v1631379553/Metal_Door_Rattle_3_x775rz.wav";     
 	document.getElementById("prize2").src = "https://res.cloudinary.com/dh2ufbkjp/video/upload/v1631379553/Metal_Door_Rattle_1_wlxmmh.wav";
 	el.style.backgroundImage =
