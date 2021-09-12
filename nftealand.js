@@ -205,6 +205,7 @@ var h = date.getHours();
 console.log(h)
 var m = date.getMinutes();
 const e = document.querySelector(".viewport-div");
+const b = document.querySelector(".metaldoorbott");
 
 if(h >=7 && h < 18) {
     document.getElementById("gif").src = "https://uploads-ssl.webflow.com/60ae8c4857598e31ccef08c2/61294ee350d0b77f38663805_NFTEA_homepage_Day_Closed_01.gif";
@@ -212,6 +213,7 @@ if(h >=7 && h < 18) {
      document.getElementById("drinkbar1").src = "https://res.cloudinary.com/dh2ufbkjp/video/upload/v1631379553/MD3.wav";
      document.getElementById("drinkbar2").src = "https://res.cloudinary.com/dh2ufbkjp/video/upload/v1631379553/MD3.wav";
      document.getElementById("prize2").src = "https://res.cloudinary.com/dh2ufbkjp/video/upload/v1631379553/MD1.wav";
+     b.style.display = "block";
      e.style.backgroundImage =
        "url(https://uploads-ssl.webflow.com/60ae8c4857598e31ccef08c2/60d0476f5b485d3d0ac65254_Tall_Boy_-_NFTEA_LAND_-_cloud_animation-small-export200.gif)";
 } else if (h >= 18 && h < 21) {
@@ -220,12 +222,14 @@ if(h >=7 && h < 18) {
     document.getElementById("prize2").src = "https://res.cloudinary.com/dh2ufbkjp/video/upload/v1631379553/MD1.wav";
     document.getElementById("drinkbar1").src = "https://res.cloudinary.com/dh2ufbkjp/video/upload/v1631379553/MD3.wav";
     document.getElementById("drinkbar2").src = "https://res.cloudinary.com/dh2ufbkjp/video/upload/v1631379553/MD3.wav";
+    b.style.display = "block";
     e.style.backgroundImage =
       "url(https://res.cloudinary.com/dh2ufbkjp/image/upload/v1628271809/Night_Clouds_seq_02_jpofwh.gif)";
 } else if ((h == 21) && (m >= 0 && m <= 30)) {
    document.getElementById("gif").src = "https://res.cloudinary.com/dh2ufbkjp/image/upload/v1631197608/NFTEA_LAND_CLOSED_BarOpen_9to930pm_poywvw.gif";
   e.style.backgroundImage =
     "url(https://uploads-ssl.webflow.com/60ae8c4857598e31ccef08c2/612f66b141a07b960d68fffa_Starry_Night_V2.2.gif)";
+    b.style.display = "block";
     a.href =
     "https://discord.gg/eMtc3ABB";
 } else if ( ((h == 21) && (m >= 30 && m <= 59)) || (h >= 22 && h <= 23) || (h >= 0 && h < 5)) {
